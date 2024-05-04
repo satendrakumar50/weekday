@@ -16,8 +16,8 @@ const Container = ({logoUrl,companyName,jobDetailsFromCompany,jobRole,location,m
 
   let len = jobDetailsFromCompany.length
      
-    let part1 = jobDetailsFromCompany.substring(0,len/2);
-    let part2 = jobDetailsFromCompany.substring(len/2);
+    let part1 = jobDetailsFromCompany.substring(0,len/2+1);
+    let part2 = jobDetailsFromCompany.substring(len/2+1);
     console.log(part1)
     console.log(part2)
 
@@ -48,8 +48,8 @@ const Container = ({logoUrl,companyName,jobDetailsFromCompany,jobRole,location,m
     <p className='font-bold'>About us</p>
       <div className="flex items-center mb-2">
        
-        <h2 className="  text-gray-500 ">{part1}</h2>
-        {showMore &&<h2 className="  text-gray-500 ">{part2}</h2>}
+        <h2 className="  text-gray-500 ">{part1}   {showMore &&<h2 className="  text-gray-500 ">{part2}</h2>}</h2>
+      
 
 
        
