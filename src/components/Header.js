@@ -8,15 +8,11 @@ const Header = () => {
           <img
            
             className="h-[1.8rem] cursor-pointer"
-            src="https://cdn.iconscout.com/icon/free/png-256/free-hamburger-menu-462145.png?f=webp"
+            src="https://cdn.cookielaw.org/logos/6e0ffeab-df84-4fee-b293-9e6498bfa887/93cda7f1-107c-457a-a30a-48cdc5858e91/7509cf20-0394-4db6-982b-e58a716320e7/Weekday_logo_RGB_Black-Transparent.png"
             alt="hamburger-menu"
           />    
         
-            <img
-              className="h-[1.8rem] mx-2"
-              src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/YouTube_Logo_2017.svg/1200px-YouTube_Logo_2017.svg.png"
-              alt="Youtube-logo"
-            />
+           
          
         </div>
         <div className=" flex col-span-10 pl-14">

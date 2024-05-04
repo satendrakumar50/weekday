@@ -1,5 +1,11 @@
 import React,{useState} from 'react'
 
+
+
+
+
+
+
 const Container = ({logoUrl,companyName,jobDetailsFromCompany,jobRole,location,maxExp,maxJdSalary,minExp}) => {
   const [showMore, setShowMore] = useState(false);
 
